@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -6,5 +6,9 @@
     <Nullable>enable</Nullable>
     <RootNamespace>PropTechIALegalGuardAPI.Domain</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pgvector" Version="*" />
+  </ItemGroup>
 
 </Project>

@@ -1,12 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12308.306 insiders
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropTechIALegalGuardAPI.Domain", "PropTechIALegalGuardAPI.Domain\PropTechIALegalGuardAPI.Domain.csproj", "{A680B576-D230-4836-8960-C61929E28ADA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropTechIALegalGuardAPI.Application", "PropTechIALegalGuardAPI.Application\PropTechIALegalGuardAPI.Application.csproj", "{45F42FDE-F2FD-45DF-9052-A18BE385F204}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropTechIALegalGuardAPI.Infrastructure", "PropTechIALegalGuardAPI.Infrastructure\PropTechIALegalGuardAPI.Infrastructure.csproj", "{E49C2F56-FA47-4CBB-ACCB-FA32956C5B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropTechIALegalGuardAPI.Client", "PropTechIALegalGuardAPI.Client\PropTechIALegalGuardAPI.Client.csproj", "{D6F677D3-3F8D-4004-947B-0F88556F641A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropTechIALegalGuardAPI.Api", "PropTechIALegalGuardAPI.Api\PropTechIALegalGuardAPI.Api.csproj", "{D6F677D3-3F8D-4004-947B-0F88556F641A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,5 +35,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A916326F-DF06-4591-87B7-9E7C604FED16}
 	EndGlobalSection
 EndGlobal
